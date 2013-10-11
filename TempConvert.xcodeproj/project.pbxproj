@@ -13,6 +13,8 @@
 		5822662917FE535F00514B59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5822662717FE535F00514B59 /* InfoPlist.strings */; };
 		5822662B17FE535F00514B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5822662A17FE535F00514B59 /* main.m */; };
 		5822662F17FE535F00514B59 /* xyzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5822662E17FE535F00514B59 /* xyzAppDelegate.m */; };
+		5822663817FE543000514B59 /* xyzTemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5822663617FE543000514B59 /* xyzTemperatureViewController.m */; };
+		5822663917FE543000514B59 /* xyzTemperatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5822663717FE543000514B59 /* xyzTemperatureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		5822661E17FE535F00514B59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5822662017FE535F00514B59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5822662217FE535F00514B59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5822662617FE535F00514B59 /* TempConvert-Info.plist */ = {isa = PBXFileReference; path = "TempConvert-Info.plist"; sourceTree = "<group>"; };
+		5822662617FE535F00514B59 /* TempConvert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempConvert-Info.plist"; sourceTree = "<group>"; };
 		5822662817FE535F00514B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5822662A17FE535F00514B59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5822662C17FE535F00514B59 /* TempConvert-Prefix.pch */ = {isa = PBXFileReference; path = "TempConvert-Prefix.pch"; sourceTree = "<group>"; };
-		5822662D17FE535F00514B59 /* xyzAppDelegate.h */ = {isa = PBXFileReference; path = xyzAppDelegate.h; sourceTree = "<group>"; };
+		5822662C17FE535F00514B59 /* TempConvert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TempConvert-Prefix.pch"; sourceTree = "<group>"; };
+		5822662D17FE535F00514B59 /* xyzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xyzAppDelegate.h; sourceTree = "<group>"; };
 		5822662E17FE535F00514B59 /* xyzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xyzAppDelegate.m; sourceTree = "<group>"; };
+		5822663517FE543000514B59 /* xyzTemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xyzTemperatureViewController.h; sourceTree = "<group>"; };
+		5822663617FE543000514B59 /* xyzTemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xyzTemperatureViewController.m; sourceTree = "<group>"; };
+		5822663717FE543000514B59 /* xyzTemperatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xyzTemperatureViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		5822662517FE535F00514B59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5822663517FE543000514B59 /* xyzTemperatureViewController.h */,
+				5822663617FE543000514B59 /* xyzTemperatureViewController.m */,
+				5822663717FE543000514B59 /* xyzTemperatureViewController.xib */,
 				5822662617FE535F00514B59 /* TempConvert-Info.plist */,
 				5822662717FE535F00514B59 /* InfoPlist.strings */,
 				5822662A17FE535F00514B59 /* main.m */,
@@ -142,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5822662917FE535F00514B59 /* InfoPlist.strings in Resources */,
+				5822663917FE543000514B59 /* xyzTemperatureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 			files = (
 				5822662B17FE535F00514B59 /* main.m in Sources */,
 				5822662F17FE535F00514B59 /* xyzAppDelegate.m in Sources */,
+				5822663817FE543000514B59 /* xyzTemperatureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
